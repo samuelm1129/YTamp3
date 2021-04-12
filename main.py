@@ -10,7 +10,7 @@ video_title = video_info['title']
 #config
 opciones = {
     'format': 'bestaudio/best',
-    'outtmpl': f"C:/Users/Usuario/Downloads/musica/{video_title}.mp3",
+    'outtmpl': f"C:/Users/Usuario/Downloads/musica/{video_title}.mp3",#aca tienes que poner donde quieres que quede tu MP3
     'postprocessors': [{
         'key': 'FFmpegExtractAudio',
         'preferredcodec': 'mp3',
